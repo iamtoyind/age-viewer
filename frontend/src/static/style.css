@@ -20,7 +20,7 @@
  :root {
     /* Light Mode */
     --light-text: #222430;
-    --light-bg: #ffffff;
+    --light-bg: #fff;
     --light-theme: #d34a97;
     --light-navbar: #343a40;
     --light-sidebar: #747474;
@@ -99,6 +99,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background: #ffffff;
 }
 
 /* ---------------------------------------------------
@@ -117,7 +118,7 @@ body {
 
 ::-webkit-scrollbar-thumb
 {
-	background-color: #2756FF
+	background-color: #FFFFFF
 }
 
 /* ---------------------------------------------------
@@ -137,8 +138,8 @@ body {
 }
 #sidebar.active {
     margin: 0px 15px 0px 15px;
-    background-color: #F7F7F7;
-    border: 1px solid #C4C4C4;
+    background-color: rgb(241, 189, 181);
+    border: 1px solid ;
     border-radius: 0px 0px 5px 5px;
     opacity: 1;
 }
@@ -174,7 +175,7 @@ body {
 }
 
 .sidebar-item-disconnect-outer {
-    background-color: aliceblue;
+    background-color: #fff;
     margin: 0 1px 2.5px 1px;
 }
 
@@ -186,6 +187,7 @@ body {
 a[data-toggle="collapse"] {
     position: relative;
 }
+
 
 
 /* ---------------------------------------------------
@@ -219,6 +221,39 @@ a[data-toggle="collapse"] {
     border-radius: 5px;
     opacity: 1;
 }
+
+/*click to database*/
+.ant-btn-primary {
+    color: #fff;
+    border-color: #1890ff;
+    background: #142B80;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+    border-radius: 35px;
+    font-weight: bold;
+}
+
+
+.ant-form-item-label > label{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    max-width: 100%;
+    height: 32px;
+    color: rgba(14, 13, 13, 0.85);
+    font-size: 14px;
+    font-weight: bold;
+}
+.Frame_FrameHeader__1bcti {
+    height: auto;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.03);
+    padding: 10px 10px 10px 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    display: flex;
+    color: #6c757d;
+}
+
 
 .editor-code-wrapper{
     margin-top: 1px;
@@ -421,7 +456,7 @@ a[data-toggle="collapse"] {
     color: #c4c4c4 !important;
 }
 .btn-link:hover {
-    color: #2756FF !important;
+    color: #f30303 !important;
 }
 
 .card.fullscreen {
@@ -465,7 +500,7 @@ a[data-toggle="collapse"] {
 }
 
 .graph-card-nav-item.active {
-    background-color: #EAEAEA;
+    background-color: #0c0c0c;
 }
 
 .nav-pills .nav-link.active {
@@ -514,7 +549,7 @@ a.nav-link.active {
     line-height: 37px;
     min-height: 37px;
     width: 100%;
-    background-color: rgba(0,0,0,.03);
+    background-color: rgba(0, 0, 0, 0.03);
     border-top: 1px solid rgba(0,0,0,.125);
 }
 
@@ -688,7 +723,7 @@ a.nav-link.active {
 }
 
 .carousel-indicators li {
-    background-color: #6c757d;
+    background-color: #047de7;
 }
 
 .carousel-indicators .active {

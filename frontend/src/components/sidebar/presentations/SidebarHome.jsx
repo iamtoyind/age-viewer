@@ -397,7 +397,7 @@ const SidebarHome = ({
           <EdgeList edges={edges} setCommand={setCommand} />
         </div>
         <VerticalLine />
-        <div className="form-group sidebar-item">
+        <div className="form-group sidebar-item" id="">
           <b>Properties</b>
           <br />
           <PropertyList propertyKeys={propertyKeys} setCommand={setCommand} />
